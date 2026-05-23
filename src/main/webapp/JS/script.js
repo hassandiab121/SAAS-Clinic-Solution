@@ -22,7 +22,7 @@ function deleteName(){
     
     form.append("i", "delete name from the list");
 	
-	req.open("GET", "AddToDatabase")
+	req.open("PUT", "AddToDatabase")
 	req.send(form);
 }
 	let data = "";
